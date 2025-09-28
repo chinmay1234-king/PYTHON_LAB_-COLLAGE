@@ -1,0 +1,16 @@
+# cook your dish here
+ # WRITE A PROGRAM TO SWAP TWO VARIABLES 
+
+a=int(input("enter the value of a: "))
+b=int(input("enter the value of b: "))
+print(f"the corresponding values of a and b before swaping are {a} and {b}\n")
+#here we have taken some random value as temp to reassign the values
+temp=a 
+a=b
+b=temp
+
+# method 2
+# a,b=b,a
+
+print(f"the corresponding values of a and b after swaping are {a} and {b}")
+
